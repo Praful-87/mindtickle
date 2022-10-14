@@ -1,0 +1,221 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #57514B;
+}
+
+.heading {
+    width: 70%;
+    margin: auto;
+    margin-top: 150px;
+    /* border: solid 1px red; */
+    text-align: center;
+
+
+
+}
+
+.subheading {
+    width: 60%;
+    margin: auto;
+
+    text-align: center;
+}
+
+.heading h2 {
+    font-size: 2.5rem;
+    color: #10069F;
+    margin-bottom: 20px;
+    font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 600;
+
+
+}
+
+.row2 {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#col1 {
+    width: 55%;
+    background-color: rgb(238, 238, 238);
+    height: 600px;
+}
+
+#col1 h3 {
+    color: #10069F;
+    margin-left: 30px;
+    font-weight: 600;
+    font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif;
+    margin-bottom: 80px;
+}
+
+#col2 {
+    width: 40%;
+    margin-left: 60px;
+}
+
+#col2 h3 {
+    color: #10069F;
+
+}
+
+ul {
+    list-style: none;
+}
+
+
+i {
+    color: #10069F;
+    margin-right: 2%;
+}
+
+.form-div {
+    display: flex;
+    width: 70%;
+
+    margin: auto;
+
+
+}
+
+.inner-form {
+    width: 40%;
+    display: block;
+    margin-bottom: 20px;
+
+
+}
+
+.inner-form p {
+    font-size: .8125rem;
+    margin-right: 10px;
+    color: #3D3935;
+}
+
+.input-form {
+    width: 70%;
+
+
+}
+
+.input-form>input {
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 4px 0 rgb(0 0 0 / 10%);
+    font-family: roboto, Geneva, Lucida Console, sans-serif;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.55556;
+    color: #3D3935;
+    padding: 15px 20px;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#bginput {
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 4px 0 rgb(0 0 0 / 10%);
+    font-family: roboto, Geneva, Lucida Console, sans-serif;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.55556;
+    color: #3D3935;
+    padding: 15px 20px;
+    min-height: 150px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.input-form p {
+    color: #3D3935;
+    font-size: .6125rem;
+}
+
+#policy {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#policy p {
+    color: #3D3935;
+    font-size: .6125rem;
+}
+
+#policy a {
+    color: #FE5000;
+}
+
+#button-div {
+    width: 30%;
+    margin: auto;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    color: #fff;
+    margin: 15px 0px;
+    background-color: #FE5000;
+    border: none;
+    display: inline-block;
+    ;
+}
+
+.section {
+    padding: 50px 25px;
+}
+
+.col12 {
+    width: 100%;
+    padding: 0px 25px;
+}
+
+.box {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
+
+.box p {
+    margin-bottom: 0px;
+    margin-top: 14px;
+}
+
+.comlist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comlist .box {
+    width: calc(16.66% - 16px);
+    margin: 8px;
+}
+
+.box img {
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+}

@@ -1,0 +1,64 @@
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+
+All the pages will contain this js code************
+
+
+
+import {
+  navbar,
+  footer,
+  company,
+  resourse,
+  solutions,
+  salesReadinesPlatform,
+} from "./componant/navbar.js";
+
+document.getElementById("navbar").innerHTML = navbar();
+document.getElementById("footer").innerHTML = footer();
+let arr = document.querySelectorAll(".arr");
+
+arr.forEach((el) => {
+  el.addEventListener("mouseover", function () {
+    // add();
+    let selected = el.innerHTML;
+    selctor(selected);
+  });
+  el.addEventListener("mouseout", function () {
+    // del();
+    let selected = el.innerHTML;
+    del();
+  });
+});
+
+
+function add(func) {
+  document.querySelector("#window").innerHTML = func();
+}
+function del() {
+  document.querySelector("#window").innerHTML = null;
+}
+function selctor(input) {
+  // console.log(input);
+  switch (input) {
+    case "Sales Readiness Platform":
+      //console.log(salesReadinesPlatform());
+      add(salesReadinesPlatform);
+      break;
+    case "Solutions":
+      add(solutions);
+      break;
+    case "Customers":
+      break;
+
+    case "Resources":
+      add(resourse);
+      break;
+    case "Company":
+      add(company);
+      break;
+    default:
+      break;
+  }
+}

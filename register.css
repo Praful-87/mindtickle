@@ -1,0 +1,493 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200;1,300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: url("https://data.whicdn.com/images/357770620/original.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 3s;
+  background-image: no-repeat;
+  font-family: "Work Sans", "sans-serif";} */
+
+
+
+
+body{
+    scroll-behavior: smooth;
+    position: relative;
+}
+p{
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+font-family: 'Roboto', sans-serif;
+
+}
+
+#paymentpage>p{
+    background-color: orangered;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+    height: auto;
+}
+                            
+#name
+{
+    display: flex;
+}
+/* #name >div > p{
+    background-color: orangered;
+} */
+#name >div>input
+{
+    width: 120%;
+ font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px; 
+}
+#name >div:nth-child(2)
+{
+    margin-left: 20%;
+}
+
+                           
+#email>input
+{
+    padding:10px;
+    font-size: 16px;
+     width: 40%;
+     border-radius: 10px;
+
+}
+
+#email>input>placeholder
+{
+    font-size: 5px;
+}
+#cardvalue
+{
+    display: flex;
+}
+
+#cardvalue>div
+{
+    /* background-color: orangered; */
+    margin-left: 30px;
+    width: 90%; 
+}
+#cardvalue>input{
+    padding: 10px;
+    width: 40%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+                             
+#cardvalue>div>img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#cardvalue>div{
+    width: 200px;
+}
+                              
+#expirydetails{
+    display: flex;
+    
+}
+#expirydetails>div{
+    margin-right: 80px;
+}
+#expirydetails>div:nth-child(1)>input{
+    padding: 15px;
+    width:120%;
+    font-size: 16px;
+}
+                
+#mainpage{
+    width: 65%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+#ordersum{
+    width: 100%;
+    height: 100px;
+    
+}
+#paymentpage{
+    width: 98%;
+    height: auto;
+    padding:10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#expirydetails>div:nth-child(2)>input{
+    padding: 5px;
+    width: 40%;
+    font-size: 16px;
+}
+                        
+#contry>Select{
+    width: 75%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#combine{
+   display: flex;
+}
+#total{
+    display: flex;
+    margin-top: 50px;
+    
+}
+/* #total >p{
+    background-color: orangered;
+} */
+#total>input{
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+#total>p{
+    font-size: 20px;
+    margin-top: 25px;
+}
+                    
+#checkbox{
+    width: 100%;
+    margin-top: 100px;
+    /* margin-bottom: -40px; */
+    font-size: 25px;
+    display: inline;
+    /* background-color: orangered; */
+    /* padding-top: 100px; */
+}  
+#checkbox>input{
+    width: 40px;
+    height: 18px;
+   
+}
+
+
+#checkbox:hover{
+    color:green;
+    font-weight:700;
+}
+
+#paymentbtn{
+    width: 70%;
+    margin: auto;
+}
+#paymentbtn>input{
+
+    border-radius: 10px;
+    background-color:orangered;
+    color: white;
+    font-size: 25px;
+    color: black;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+   
+}
+#paymentbtn>input:hover{
+  
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    
+}
+#total>input{
+    color: orangered;
+    font-size: 25px;
+}
+
+
+@media all and (min-width:500px) and (max-width:850px){
+
+    #name
+    {
+          display: block;
+          flex-wrap: wrap;
+    }
+#name >div:nth-child(2)
+{
+    margin-left: 0px;
+}
+#name >div>input
+{
+    width: 50%;
+ font-size: 16px;
+    padding:8px;
+    
+    text-align: center;
+    border-radius: 5px; 
+}
+#cardvalue
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+#cardvalue>div
+{
+    width: 50%; 
+}
+#cardvalue>input{
+    padding: 5px;
+    width: 50%;
+    font-size: 16px;
+    
+color: orangered;
+}
+                             
+#cardvalue>div>img{
+    width: 60px;
+    height: 60px;
+
+}
+#cardvalue>div{
+    width: 400px;
+    margin-top: 10px;
+}
+#total>input{
+    width: 20%;
+    height: 20px;
+    border-radius: 5px;
+
+    font-size:26px;
+    text-align: center;
+    margin-top: 20px;
+    
+color: orangered;
+}
+#total>p{
+    font-size: 20px;
+    margin-top: 22px;
+}
+#total{
+    display: flex;
+   margin-top: 2px;
+    
+}
+#contry>select{
+    width: 65%;
+    padding: 5px;
+    font-size: 16px;
+
+}
+#combine{
+    display: block;
+
+}
+
+}
+
+
+
+@media all and (min-width:300px) and (max-width:500px){
+    #paymentpage>p{
+          background-color: rgb(180, 195, 240);
+          font-size: 40px;
+          text-align: center;
+          border-radius: 5px;
+          width: 80%;
+          margin: auto;
+          margin-bottom: 5px;
+          font-size: 15px;
+          height: auto;
+    }
+    #name
+    {
+          display: flex;
+    }
+#name >div:nth-child(2)
+{
+    margin-left: 0px;
+}
+#cardvalue
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+#cardvalue>div
+{
+    width: 40%; 
+}
+#cardvalue>input{
+    padding: 5px;
+    width: 50%;
+    font-size: 12px;
+    color: orangered;
+}
+                                
+#cardvalue>div>img{
+    width: 90px;
+    height: 90px;
+
+}
+#cardvalue>div{
+    width: 200px;
+    margin-top: 10px;
+}
+
+
+#name >div>input
+{
+    width: 80%;
+ font-size: 12px;
+    padding: 5px;
+
+}
+
+p{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+#email>input
+{
+    padding:5px;
+    font-size: 11px;
+     width: 50%;
+     border-radius: 5px;
+
+}
+/* #emai>p{
+    background-color: orangered;
+} */
+ #cardnum > div >p{
+    background-color: orangered;
+ }
+#email>input>placeholder
+{
+    font-size: 2px;
+}
+#expirydetails{
+    display: flex;
+    
+}
+#expirydetails>div{
+    margin-right: 10px;
+}
+#expirydetails>div:nth-child(1)>input{
+    padding: 5px;
+    width:80%;
+    font-size: 10px;
+}
+                        
+
+#expirydetails>div:nth-child(2)>input{
+    padding: 1px;
+    width: 40%;
+    font-size: 12px;
+}
+
+#contry>select{
+    width: 65%;
+    padding: 5px;
+    font-size: 10px;
+
+}
+#contry > p{
+    background-color: orangered;
+}
+#expirydetails> div > p{
+
+    background-color: orangered;
+
+}
+#contry >p{
+    background-color: orangered;
+}
+#combine{
+    display: block;
+   
+}
+#total{
+    display: flex;
+    margin-top: 5px;
+    
+    
+}
+#total>input{
+    width: 20%;
+    height: 20px;
+
+    font-size:12px;
+    text-align: center;
+    margin-top: 20px;
+}
+#total>p{
+    font-size: 16px;
+    margin-top: 22px;
+}
+#checkbox{
+    width: 100%;
+    /* height: 80px; */
+    margin-top: 10px;
+    margin-bottom: -40px;
+    font-size: 12px;
+    display: inline;
+}  
+#checkbox>input{
+    width: 20px;
+    height: 12px;
+    margin-top: 15px;
+}
+#paymentbtn{
+    width: 50%;
+    margin: auto;
+    background-color: orangered;
+}
+#paymentbtn>input{
+    font-size: 12px;
+    padding: 5px;
+}
+#paymentbtn>input:hover{
+  
+    font-size: 12px;
+ color: white;
+    background-color: blue;
+    
+}
+}
+#register > h1{
+    color: orangered;
+    font-size: 80px;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 40px;
+    height: auto;
+    /* background-color: orangered; */
+
+}
+#register {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 30%;
+
+}
